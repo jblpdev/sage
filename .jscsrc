@@ -11,11 +11,10 @@
   "requireOperatorBeforeLineBreak": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
   "maximumLineLength": {
-    "value": 80,
     "allowComments": true,
     "allowRegex": true
   },
-  "validateIndentation": 2,
+  "validateIndentation": "\t",
   "validateQuoteMarks": "'",
   "disallowMultipleLineStrings": true,
   "disallowMixedSpacesAndTabs": true,
