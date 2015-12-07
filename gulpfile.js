@@ -119,7 +119,7 @@ var cssTasks = function(filename) {
 			return gulpif(enabled.minify, minifyCss({
 				advanced: false,
 				rebase: false
-			}))
+			}));
 		})
 		.pipe(function() {
 			return gulpif(enabled.rev, rev());
