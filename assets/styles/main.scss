@@ -1,19 +1,11 @@
-@import "common/_variables";
+@import "include/vars";
+@import "include/grid";
+@import "include/form";
+@import "include/page";
+@import "include/flex";
+@import "include/wp";
 
-// Automatically injected Bower dependencies via wiredep (never manually edit this block)
-// bower:scss
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
-
-@import "common/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/grid";
-@import "components/wp-classes";
-@import "layouts/header";
-@import "layouts/sidebar";
-@import "layouts/footer";
-@import "layouts/pages";
-@import "layouts/posts";
-@import "layouts/tinymce";
+body {
+	font-weight: bold;
+	font-size: 11px;
+}

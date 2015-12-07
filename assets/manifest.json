@@ -12,9 +12,9 @@
       ],
       "main": true
     },
-    "customizer.js": {
+    "plugins.js": {
       "files": [
-        "scripts/customizer.js"
+
       ]
     },
     "jquery.js": {
@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://local.dev"
   }
 }
